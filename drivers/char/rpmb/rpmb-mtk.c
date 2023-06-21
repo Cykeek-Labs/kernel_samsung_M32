@@ -98,9 +98,6 @@ static struct dciMessage_t *rpmb_gp_dci;
 
 #define RPMB_SOCKET_NAME "rpmb_socket"
 
-#define MAX_RPMB_TRANSFER_BLK (32)
-#define MAX_RPMB_REQUEST_SIZE (512 * MAX_RPMB_TRANSFER_BLK)
-
 #define RPMB_IPC_MAGIC			0x11111111
 #define RPMB_REQUEST_MAGIC		0x44444444
 #define RPMB_REPLY_MAGIC		0x66666666
