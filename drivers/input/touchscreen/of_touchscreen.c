@@ -14,7 +14,7 @@
 #include <linux/input/mt.h>
 #include <linux/input/touchscreen.h>
 
-static bool touchscreen_get_prop_u32(struct device *dev,
+u32 touchscreen_get_prop_u32(struct device *dev,
 				     const char *property,
 				     unsigned int default_value,
 				     unsigned int *value)
